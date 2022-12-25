@@ -6,15 +6,15 @@ export default function Burgers() {
     const data = [
         {
             id: 1,
-            snack: 'drink',
-            name: 'Coca-Cola 2L',
-            description: 'O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.',
-            price: 12,
+            snack: 'burgers',
+            name: 'Extra bacon',
+            description: 'Criado para os amantes de bacon, possui em topdas as suas camadas bacon bem assado a ainda queijo e carne.',
+            price: 23.5,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
             id: 2,
-            snack: 'drink',
+            snack: 'burgers',
             name: 'Extra bacon',
             description: 'Criado para os amantes de bacon, possui em topdas as suas camadas bacon bem assado a ainda queijo e carne.',
             price: 23.5,
