@@ -24,25 +24,25 @@ export function Sidebar() {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to='/'>
+                        <NavLink to='/' title='Hambúrgueres'>
                             <BurgerIcon />
                             <span>Hambúrgueres</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='pizzas'>
+                        <NavLink to='pizzas' title='Pizzas'>
                             <PizzaIcon />
                             <span>Pizzas</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='drinks'>
+                        <NavLink to='drinks' title='Bebidas'>
                             <SodaPopIcon />
                             <span>Bebidas</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='ice-creams'>
+                        <NavLink to='ice-creams' title='Sorvetes'>
                             <IceCreamIcon />
                             <span>Sorvetes</span>
                         </NavLink>
